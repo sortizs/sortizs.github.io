@@ -1,3 +1,54 @@
-<p>
-  navbar works!
-</p>
+<nav>
+  <div class="portrait">
+    <img src="/assets/profile.jpg" alt="profile photo">
+  </div>
+  <!-- <div class="port-title">
+    Sebastián
+  </div> -->
+  <ul>
+    <!-- <li routerLinkActive="active">
+      <a [routerLink]="[ '/home' ]">
+        <i class="fas fa-home fa-sm fa-fw"></i>
+        Home
+      </a>
+    </li> -->
+    <li routerLinkActive="active">
+      <a [routerLink]="[ '/about' ]">
+        <i class="fas fa-info-circle fa-sm fa-fw"></i>
+        About me
+      </a>
+    </li>
+    <li routerLinkActive="active">
+      <a [routerLink]="[ '/education' ]">
+        <i class="fas fa-graduation-cap fa-sm fa-fw"></i>
+        Education
+      </a>
+    </li>
+    <li routerLinkActive="active">
+      <a [routerLink]="[ '/experience' ]">
+        <i class="fas fa-briefcase fa-sm fa-fw"></i>
+        Experience
+      </a>
+    </li>
+    <li routerLinkActive="active">
+      <a [routerLink]="[ '/portfolio' ]">
+        <i class="fas fa-code-branch fa-sm fa-fw"></i>
+        Portfolio
+      </a>
+    </li>
+    <li routerLinkActive="active">
+      <a [routerLink]="[ '/contact' ]">
+        <i class="fas fa-mail-bulk fa-sm fa-fw"></i>
+        Contact
+      </a>
+    </li>
+  </ul>
+  <div class="social-media">
+    <a href="https://www.linkedin.com/in/osernas" target="_blank">
+      <i class="fab fa-linkedin fa-2x fa-fw"></i>
+    </a>
+    <a href="https://github.com/sortizs/" target="_blank">
+      <i class="fab fa-github-square fa-2x fa-fw"></i>
+    </a>
+  </div>
+</nav>
