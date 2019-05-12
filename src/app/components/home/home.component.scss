@@ -1,0 +1,41 @@
+div.row {
+    border-radius: 10px;
+    padding: 1rem 0;
+    background-color: var(--ng-light-tint);
+    img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    div.col-lg-4 {
+        padding: 0 1rem;
+        span:first-child {
+            text-transform: uppercase;
+        }
+        h1, h6 {
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        p {
+            text-align: left;
+        }
+        ul.personal-data {
+            list-style: none;
+            padding-left: 0;
+            li {
+                margin-bottom: 0.5rem;
+                .far, .fas {
+                    color: var(--ng-primary);
+                }
+            }
+        }
+        .social-media {
+            text-align: center;
+            a {
+                color: var(--ng-medium);
+                .fab:hover {
+                color: var(--ng-primary);
+                }
+            }
+        }
+    }
+}

@@ -1,6 +1,7 @@
 $primary: var(--ng-primary);
 
 .main-container {
-    margin-left: 200px;
+    margin: 0 auto;
     padding: 3rem;
+    max-width: 80%;
 }
